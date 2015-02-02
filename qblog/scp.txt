@@ -1,0 +1,2 @@
+scp root@172.16.66.81:/root/dbbackup/*.sql .
+

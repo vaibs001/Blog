@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load django_markdown %}
+
+{% block blog_entries %}
+ <h1>About</h1>
+            <p>Hi Guests, <em>Welcome</em> This blog is written by Vaibhav Dixit only for fun.. hahaha :D</p>
+{% for object in object_list %}
+  <div class="post">
+    <h2>{{ object.title }}</h2>
+  </div>
+{% endfor %}
+{% endblock %}
